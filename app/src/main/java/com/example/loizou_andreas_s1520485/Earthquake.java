@@ -2,9 +2,10 @@ package com.example.loizou_andreas_s1520485;
 
 import android.support.annotation.NonNull;
 
+import java.io.Serializable;
 import java.util.Date;
 
-class Earthquake implements Comparable{
+class Earthquake implements Comparable, Serializable {
     private String title;
     private String description;
     private Date pubDate;
